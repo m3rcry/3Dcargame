@@ -183,6 +183,18 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3c574e2b24a240b4d92604e7127351c6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 401.45953
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3c574e2b24a240b4d92604e7127351c6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 187.16476
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3c574e2b24a240b4d92604e7127351c6, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 131
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3c574e2b24a240b4d92604e7127351c6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0
       objectReference: {fileID: 0}
@@ -399,7 +411,7 @@ GameObject:
   - component: {fileID: 4239954232274515118}
   - component: {fileID: 2104202064743759972}
   m_Layer: 0
-  m_Name: body
+  m_Name: 2323
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -412,13 +424,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 446802841464316337}
-  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 0, y: 0.1875, z: 0}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: -0.7071068, w: 0}
+  m_LocalPosition: {x: 0.144, y: 0.194, z: 0}
   m_LocalScale: {x: -9.561067, y: -26.10168, z: -9.561066}
   m_Children: []
   m_Father: {fileID: 2405432314245824182}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 180, z: 0}
 --- !u!33 &1239914966247902076
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -601,8 +613,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2405432312373190165}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0.45, z: 18.09}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2405432312932411082}
@@ -610,7 +622,7 @@ Transform:
   - {fileID: 2405432312447049310}
   m_Father: {fileID: 0}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &2405432312373190165
 GameObject:
   m_ObjectHideFlags: 0
@@ -840,10 +852,10 @@ MonoBehaviour:
   steerLeft: 276
   steerRight: 275
   jump: 32
-  acceleration: 34.9
-  steering: 116.7
+  acceleration: 37.4
+  steering: 130.4
   jumpForce: 50
-  gravity: 20
+  gravity: 14.8
   drift: 1
   jumpAbility: 0
   steerInAir: 1
@@ -5878,7 +5890,6 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 992603aa16795c64d9420d27ef8191cf, type: 2}
   - {fileID: 2100000, guid: 992603aa16795c64d9420d27ef8191cf, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
